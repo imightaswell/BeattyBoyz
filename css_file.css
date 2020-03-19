@@ -59,6 +59,7 @@ form p {
 }
 .paragraph {
    color: white;
+   padding: 5px;
 }
 .submit {
    transform: translate(70%, 0%);
