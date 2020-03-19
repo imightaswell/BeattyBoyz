@@ -1,10 +1,10 @@
 /* general text formatting */
 
 h1, h2, h3, nav, footer {
- font-family: Georgia, Cambria, "Times New Roman", serif;
+ font-family: Georgia, Cambria, "Times New Roman", white;
 }
 body {
-   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-family: "Lucida Sans", Verdana, Arial, white;
    font-size: 85%;
    background: linear-gradient(
           rgba(0, 0, 0, 0.9), 
