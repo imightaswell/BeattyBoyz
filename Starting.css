@@ -6,6 +6,9 @@ h1, h2, h3, nav, footer {
 body {
    font-family: "Lucida Sans", Verdana, Arial, sans-serif;
    font-size: 85%;
+   background: linear-gradient(
+          rgba(0, 0, 0, 0.9), 
+          rgba(0, 0, 0, 0.9) );
 }
 
 table {
@@ -22,17 +25,17 @@ table tbody td{
 }
 
 legend {
-   background-color: #EBF4FB ;
+   background-color: #575961 ;
    margin: 0 auto;
    width: 90%;
-   padding: 0.25em;
-   text-align: center;
+   padding: 10px;
+   text-align: left;
    font-weight: bold;
    font-size: 100%;
 }
 fieldset {
    margin: 1em auto;
-   background-color: #FAFCFF;
+   background-color: #9a9dab;
    width: 60%;
 }
 form p {
