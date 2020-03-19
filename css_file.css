@@ -1,7 +1,8 @@
 /* general text formatting */
 
 h1, h2, h3, nav, footer {
- font-family: Georgia, Cambria, "Times New Roman", white;
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+ color: white;
 }
 body {
    font-family: "Lucida Sans", Verdana, Arial, white;
