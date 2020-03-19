@@ -60,6 +60,9 @@ form p {
 .paragraph {
    color: white;
 }
+.submit {
+   transform: translate(70%, 0%);
+}
 
 .rounded, .rounded:hover {
    border: 1px solid #172d6e;
