@@ -26,7 +26,7 @@
 		</p>
 	</div>
 
-<form method="get" action="" id="mainForm">
+<form method="get" action="" id="calcForm">
    <fieldset>
          <tr>
       <legend>Caloric Calculator</legend>
@@ -43,8 +43,8 @@
 
             <td> 
             	<p>
-            		<label>Gender</label>
-                  	<input type="radio" name="gender" value="1">Male
+            		<label>Gender</label><br/>
+                  	<input type="radio" name="gender" value="1">Male<br/>
                   	<input type="radio" name="gender" value="2">Female
             	</p>
             </td>
@@ -102,15 +102,15 @@
             <td>
                <p>	
                <label>Weight</label><br/>               
-               <input type="text" name="weight" size="5"/>
+               <input type="text" name="weight" size="3"/>
                </p>
             </td>
          </tr>
 
          <tr>
-            <td colspan="2">
+            <td colspan="3">
                <div> 
-                  <input type="Submit" class="rounded"> <input type="reset" value="Clear Form" class="rounded">  
+                  <input type="Submit" class="rounded" onclick="return validateInputs()"> <input type="reset" value="Clear Form" class="rounded">  
                </div>
             </td>
          </tr>
