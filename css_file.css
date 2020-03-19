@@ -55,6 +55,9 @@ form p {
 .centered {
    text-align: center;
 }
+.paragraph {
+   color: white;
+}
 
 .rounded, .rounded:hover {
    border: 1px solid #172d6e;
