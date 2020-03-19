@@ -44,10 +44,11 @@
             <td> 
             	<p>
             		<label>Gender</label><br/>
-                  	<input type="radio" name="gender" value="1">Male<br/>
-                  	<input type="radio" name="gender" value="2" checked>Female
+                  	<input type="radio" name="gender" value="1">Male
+                  	<input type="radio" name="gender" value="2">Female
             	</p>
             </td>
+
             <td>
                <p> 
                <label>Height</label><br/>
@@ -85,17 +86,31 @@
                </select>
                </p>
             </td>
+
+            <td>
+               <p> 
+               <label>Activity Level</label><br/>
+               <select name="activity">
+                	<option>Sedentary Activity</option>
+					<option>Light Activity</option>
+					<option>Moderate Activity</option>
+					<option>Intense Activity</option> 
+               </select>
+               </p>
+            </td>
+
             <td>
                <p>	
                <label>Weight</label><br/>               
-               <input type="text" name="weight" size="10"/>
+               <input type="text" name="weight" size="5"/>
                </p>
             </td>
          </tr>
+
          <tr>
             <td colspan="2">
-               <div class="rectangle centered"> 
-                  <input type="submit" class="rounded"> <input type="reset" value="Clear Form" class="rounded">  
+               <div> 
+                  <input type="Submit" class="rounded"> <input type="reset" value="Clear Form" class="rounded">  
                </div>
             </td>
          </tr>
