@@ -16,9 +16,9 @@ else {
 }
 }
 
-var button = document.getElementById("button");
 
-button.addEventListener("click", function() {
+
+document.getElementsByTagName("button")[0].addEventListener("click", function() {
 	calculator(); 
 	document.getElementById('cals').innerHTML = value;
 })
