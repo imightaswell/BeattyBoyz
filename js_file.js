@@ -2,17 +2,36 @@ var value;
 
 function calculator(){
 
-var gender = document.getElementById("gender").value;
+
+var gender = new Boolean(document.getElementById("genderM").checked);
 var height = document.getElementById("height").value;
 var age = document.getElementById("age").value;
 var weight = document.getElementById("weight").value; 
+var activity = document.getElementById("activity").value;
+var multiplier;
 
-if (gender=="1"){
-	value=(13.397*weight+4.799*height-5.677*age) + 88.362;
+if (activity == "Sedentary"){
+	multiplier = 1.2;
+}
+
+else if (activity == "Moderate"){
+	multiplier = 1.4;
+}
+
+else if (activity == "Intense"){
+	multiplier = 1.7;
 }
 
 else {
-	value=(13.397*weight+4.799*height-5.677*age) + 447.593;
+	multiplier = 1.95;
+}
+
+if (gender==true){
+	value=((10*weight+6.25*height-5*age) + 5) * multiplier;
+}
+
+else {
+	value=((10*weight+6.25*height-5*age) - 161) * multiplier;
 }
 }
 
