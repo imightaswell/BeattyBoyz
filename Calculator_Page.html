@@ -36,7 +36,7 @@
 		</p>
 	</div>
 <!-- Creates the form for the caloric intake calculator -->
-<form class="calc" action="#">
+<form id="calcForm" action="#">
 	<div class="table">
 
 	<label class = "field">Male:</label> 
@@ -60,10 +60,11 @@
 		<option>Athlete</option>
 	</select>
 	
-
-
 <button type="button" onclick="" class="rounded">Calculate</button>
-<p class="field" id="cals">Maintenance Calories: </p> <p class="field" id="cals">Calories</p><br><br>
+
+<p class="field">Maintenance Calories: </p> <p class="field" id="baseCals"></p><br>
+<p class="field">Cutting Calories: </p> <p class="field" id="cuttingCals"></p><br>
+<p class="field">Bulking Calories: </p> <p class="field" id="bulkingCals"></p><br>
 
 <p class="field"></p>
 
