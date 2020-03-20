@@ -36,7 +36,7 @@
 			Below is a calculator to determine your caloric maintenance level:
 		</p>
 	</div>
-
+<!-- Creates the form for the caloric intake calculator -->
 <form method="get" action="" id="calcForm">
    <fieldset>
          <tr>
@@ -46,6 +46,7 @@
          <tr>
 
          	<td>
+         		<!-- Text box to enter age -->
                <p>
                		<label id="labelage">Age</label><br/>
                   	<input type="text" name="age" id="age" size="3"/>
@@ -53,6 +54,7 @@
             </td>
 
             <td> 
+            	<!-- Gender radio buttons -->
             	<p>
             		<label id="labelgender">Gender</label><br/>
                   	<input type="radio" name="gender" id="gMale" value="1">Male<br/>
@@ -61,6 +63,7 @@
             </td>
 
             <td>
+            	<!-- Drop down to enter height -->
                <p> 
                		<label>Height</label><br/>
                		<select name="height">
@@ -99,6 +102,7 @@
             </td>
 
             <td>
+            	<!-- Drop down level for activity level -->
                <p> 
                <label>Activity Level</label><br/>
                <select name="activity">
@@ -111,6 +115,7 @@
             </td>
 
             <td>
+            	<!-- Text box to enter weight -->
                <p>	
                <label id="labelweight">Weight</label><br/>               
                <input type="text" name="weight" id="weight" size="3"/>
@@ -119,6 +124,7 @@
          </tr>
 
          <tr>
+         	<!-- Buttons to submit or reset the form -->
             <td class="submit" colspan="3">
                <div> 
                   <input type="Submit" class="rounded" onclick="return validateInputs()"> <input type="reset" value="Clear Form" class="rounded">  
