@@ -9,7 +9,10 @@ h1, h2, h3, nav, footer {
  font-family: Georgia, Cambria, "Times New Roman", serif;
  color: white;
  padding-top: 5em;
- transform: translate(33%, 0px);}
+ width: 400px;
+ margin:0 auto;
+}
+
 body {
    font-family: "Lucida Sans", Verdana, Arial, white;
    font-size: 85%;
