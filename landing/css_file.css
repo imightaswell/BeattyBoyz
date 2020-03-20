@@ -8,7 +8,12 @@
 h1{
  font-family: sans-serif;
  color: white;
- padding-top: 15em;
+ width: 900px;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -250px;
  
 }
 
@@ -16,6 +21,13 @@ h2{
    font-family: sans-serif;
    color: white;
    text-align: center;
+   width: 300px;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  margin-top: 0px;
+  margin-left: 0px;
+ 
 }
 body {
    font-family: "Lucida Sans", Verdana, Arial, white;
@@ -77,12 +89,27 @@ ul li.active a{
    color: #fff;
    font-size:45px;
 }
+.div-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 0px;
+  margin-left: -150px;
+  height: 150px;
+  width: 0px
+}
 
 .button{
    position: absolute;
-   top:50%;
+   top:40%;
+   width: 400px;
+   display: inline-block;
+   position: fixed;
+   top: 40%;
    left: 50%;
-   transform: translate(-50%, -50%);
+   margin-top: 150px;
+   margin-left: -180px;
+
 }
 
 .btn{
