@@ -94,10 +94,11 @@ form p {
 .paragraph {
    color: white;
    padding-top: 2em;
+   margin-right: 150px;
+   margin-left: 150px;
+   margin-bottom: 30px
 }
-.submit {
-   transform: translate(77%, 0px);
-}
+
 
 .rounded, .rounded:hover {
    border: 1px solid #172d6e;
@@ -120,6 +121,23 @@ form p {
    float: left;
    width: 130px;
    height: auto;
+   margin-left: 142px;
+}
+.calc{
+   border: 1px solid #2f2f30;
+   background: rgba(255, 255, 255, .3);
+   border-bottom: 1px solid #2f2f30;
+   border-radius: 5px;
+   width: 250px;
+   height:180px;
+   margin-left: 150px
+
+}
+.table {
+   width: 200px;
+   height:180px;
+   padding-left: 40px;
+   padding-top: 10px;
 }
 
 .field {
