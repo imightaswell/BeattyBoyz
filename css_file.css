@@ -121,3 +121,8 @@ form p {
    width: 130px;
    height: auto;
 }
+
+.field {
+   color: white;
+   font-weight: bold;
+}
