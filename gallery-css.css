@@ -4,11 +4,15 @@
    font-family: Century Gothic;
 }
 
-h1, h2, h3, nav, footer {
+h1, h2, h3 {
  font-family: Georgia, Cambria, "Times New Roman", serif;
- color: white;
- padding-top: 5em;
- transform: translate(33%, 0px);}
+ color: black;
+ padding-top: 2em;
+ margin: 0 auto;
+ text-align: center;
+
+}
+
 body {
    font-family: "Lucida Sans", Verdana, Arial, white;
    font-size: 95%;
