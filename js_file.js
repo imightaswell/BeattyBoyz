@@ -1,4 +1,5 @@
 var value;
+
 function calculator(){
 
 var gender = document.getElementById("gender").value;
@@ -15,10 +16,11 @@ else {
 }
 }
 
-document.getElementsByTagName("button")[0].addEventListener("click", function()){
-	calculator();
-	document.getElementById('cals').innerHTML = value;
-}
+var button = document.getElementById("button");
 
+button.addEventListener("click", function() {
+	calculator(); 
+	document.getElementById('cals').innerHTML = value;
+})
 
 
