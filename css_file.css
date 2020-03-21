@@ -6,13 +6,13 @@
 }
 
 h1{
- font-family: sans-serif;
- font-size: 45px;
- color: white;
- width: 900px;
+  font-family: sans-serif;
+  font-size: 45px;
+  color: white;
+  width: 900px;
   position: absolute;
   top: 27%;
-  right: 31%;
+  right: 45%;
   margin-top: -50px;
   margin-left: -250px;
  
@@ -105,7 +105,7 @@ form p {
 .paragraph {
    color: white;
    font-style: oblique;
-   padding-top: 17em;
+   padding-top: 20em;
    margin-right: 150px;
    margin-left: 150px;
    margin-bottom: 30px
@@ -147,11 +147,17 @@ form p {
   box-shadow: 8px 8px 50px #000;
 
 }
+.front {
+
+   width: 1000px;
+   height:500px;
+}
+
 
 .table {
    width: 200px;
-   height:180px;
-   padding-left: 40px;
+   height: 180px;
+   padding-left: 100px;
    padding-top: 10px;
 }
 

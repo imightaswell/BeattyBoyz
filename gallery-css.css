@@ -9,8 +9,6 @@ h1, h2, h3 {
  color: black;
  padding-top: 2em;
  margin: 0 auto;
- text-align: center;
-
 }
 
 body {
@@ -97,6 +95,11 @@ form p {
 }
 .submit {
    transform: translate(77%, 0px);
+}
+
+.front {
+   width: 1000px;
+   height:1000px;
 }
 
 .rounded, .rounded:hover {
