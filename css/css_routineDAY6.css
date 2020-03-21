@@ -77,8 +77,8 @@ ul li a:hover{
 
 .content-table {
   border-collapse: collapse;
-  margin: 160px;
-  margin-left: 525px;
+  margin: 235px;
+  margin-left: 375px;
   font-size: 0.8em;
   border-radius: 5px 5px 0 0;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
@@ -131,7 +131,7 @@ ul li a:hover{
     color: white;
     font-weight: bold;
     position: fixed;
-    top: 68.5%;
+    top: 60.7%;
     left: 46%;
     font-size: 21px;
 }
