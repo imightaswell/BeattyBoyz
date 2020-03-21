@@ -32,7 +32,7 @@ h2{
 body {
    font-family: "Lucida Sans", Verdana, Arial, white;
    font-size: 85%;
-   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./img/bg.jpeg);
+   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/bg.jpeg);
    height: 100vh;
    background-size: cover;
    background-position: center;
