@@ -12,25 +12,13 @@ h1{
  color: white;
  width: 900px;
   position: fixed;
-  top: 40%;
-  left: 50%;
+  top: 90%;
+  left: 90%;
   margin-top: -50px;
   margin-left: -250px;
  
 }
 
-h2{
-   font-family: sans-serif;
-   color: white;
-   text-align: center;
-   width: 300px;
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  margin-top: 0px;
-  margin-left: 0px;
- 
-}
 body {
    font-family: "Lucida Sans", Verdana, Arial, white;
    font-size: 85%;
@@ -92,22 +80,52 @@ ul li.active a{
 
 /* Table css */
 
-.content {
+.content-table {
   border-collapse: collapse;
-  margin: 25px 0;
-  font-size: 0.9em
-  min-width: 400px;
-
+  margin: 130px;
+  margin-left: 370px;
+  font-size: 0.7em;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-.content thead tr {
+.content-table thead tr {
   background-color: #009879;
   color: #ffffff;
   text-align: left;
   font-weight: bold;
 }
 
-.content th,
-.content td{
-  padding-top: 12px 15px;
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 40px solid #009879;
+}
+
+.intro{
+  font-family: sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+ color: white;
+ width: 900px;
+  position: fixed;
+  top: 25%;
+  left: 39%;
+  margin-top: -50px;
+  margin-left: -250px;
 }
