@@ -6,10 +6,10 @@
 }
 
 h1{
- font-family: sans-serif;
- font-size: 45px;
- color: white;
- width: 900px;
+  font-family: sans-serif;
+  font-size: 45px;
+  color: white;
+  width: 900px;
   position: absolute;
   top: 27%;
   right: 31%;
@@ -147,6 +147,12 @@ form p {
   box-shadow: 8px 8px 50px #000;
 
 }
+.front {
+
+   width: 1000px;
+   height:500px;
+}
+
 
 .table {
    width: 200px;
