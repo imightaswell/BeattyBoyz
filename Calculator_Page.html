@@ -13,12 +13,13 @@
 				<img src="logo1.png">
 			</div>
 			<ul>
-				<li><a href="#">Home</a></li>
+				<li><a href="C:/Users/E/Documents/GitHub/BeattyBoyz/Landing.html">Home</a></li>
 				<li><a href="#">About Us</a></li>
 			</ul>
 		</div>
 	</header>
 	<h1>Weight Change and How it Works</h1>
+	<!-- A paragrap that explains weight loss -->
 	<div>
 		<p class="paragraph">
 			Weight change in the human body depends on caloric intake. A calorie is a unit of energy used in nutrition when determining how much energy and nutritional value is in food. The human body uses calories to function using them for things like providing the engery for our vital organs to operate and providing energy to our muscles when we walk. Since the human body is constantly working and using calories there’s a base amount of calories the human body uses (or burns) to ensure our vital organs are functioning properly.<br/><br/>
@@ -37,36 +38,35 @@
 <!-- Creates the form for the caloric intake calculator -->
 <form id="calcForm" action="#">
 	<div class="table">
-
+	<!-- Makes radio button to allow user to choose their gender. Defaults to male. -->
 	<label class = "field">Male:</label> 
-	<input type="radio" name="gender" value="1" id="genderM" class = "field"><br>
-
+	<input type="radio" name="gender" value="1" id="genderM" class = "field" checked\><br>
   	<label class = "field">Female:</label> 
   	<input type="radio" name="gender" value="2" id="genderF"class = "field"><br>
 
+  	<!-- Accepts the users age, height, and weight -->
 	<label class = "field">Age:</label> <input type="number" id="age"><br>
+	<label class = "field">Height in cm:</label> <input type="number" id="height"><br>
+	<label class = "field">Weight in kg:</label> <input type="number" id="weight"><br>
 
-	<label class = "field">Height:</label> <input type="number" id="height"><br>
-	
-	<label class = "field">Weight:</label> <input type="number" id="weight"><br>
-
+	<!-- Accepts the users activity level using a dropdown selector -->
 	<label class = "field">Activity Level:</label> 
 	<select name = "activity" id="activity">
-		<option>Choose Activity Level</option>
+		<option>Bed Ridden</option>
 		<option>Sedentary</option>
 		<option>Moderate</option>
 		<option>Intense</option>
 		<option>Athlete</option>
 	</select>
-	
+<!-- Creates the button that allows to submit their information -->	
 <button type="button" onclick="" class="rounded">Calculate</button>
 
+<!-- Creates the fields that the calorie calculations will go into -->
 <p class="field">Maintenance Calories: </p> <p class="field" id="baseCals"></p><br>
 <p class="field">Cutting Calories: </p> <p class="field" id="cuttingCals"></p><br>
 <p class="field">Bulking Calories: </p> <p class="field" id="bulkingCals"></p><br>
 
-<p class="field"></p>
-
+<!-- Initiates calculation script -->
 <script type="text/javascript" src="js_file.js"></script>
 </div>
 </form>
