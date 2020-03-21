@@ -114,7 +114,7 @@ form p {
 
 .rounded, .rounded:hover {
    border: 1px solid #172d6e;
-   border-bottom: 1px solid #0e1d45;
+   border-bottom: 1.1px solid #0e1d45;
    border-radius: 5px;
    text-align: center;
    color: white;
