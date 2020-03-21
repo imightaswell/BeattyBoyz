@@ -134,12 +134,13 @@ form p {
    width: 10em;
    height: auto;
 }
+
 .calc{
-  width: 400px;
-  height: 420px;
+  width: 500px;
+  height: 520px;
   color: #000;
   top: 50%;
-  left: 80%;
+  left: 75%;
   padding: 60px 30px;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -169,4 +170,36 @@ form p {
 .main{
    max-width: 1200px;
    margin: auto;
+}
+
+.butcon {
+   position: top;
+} 
+.butcon input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.butcon label {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 4px;
+}
+
+.butcon label:hover {
+  background-color: #dfd;
+}
+
+.butcon input[type="radio"]:focus + label {
+    border: 2px dashed #444;
+}
+
+.butcon input[type="radio"]:checked + label {
+    background-color: #bfb;
+    border-color: #4c4;
 }
