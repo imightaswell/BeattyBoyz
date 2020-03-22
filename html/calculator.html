@@ -7,6 +7,7 @@
 </head>
 
 <body>
+	<div class="wrapper">
 	<header>
 		<div class="main">
 			<div class="logo">
@@ -39,7 +40,7 @@
 	</div>
 <!-- Creates the form for the caloric intake calculator -->
 <div class="calc">
-	<form id="calcForm" action="#">
+	<form id="calcForm" action="#" class="calcForm">
 		<div class="table">
 
 	<!-- Makes radio button to allow user to choose their gender. Defaults to male. -->
@@ -50,12 +51,12 @@
   	
   	<input type="radio" name="gender" class="lab2" value="1" id="genderF">
   	<label for="genderF">Female</label> 
- 	</div>		 
+ 	</div class = "text">		 
   	
   	<!-- Accepts the users age, height, and weight -->
-	<label class = "field">Age:</label> <input type="number" id="age"><br>
-	<label class = "field">Height in inches:</label> <input type="number" id="height"><br>
-	<label class = "field">Weight in lbs:</label> <input type="number" id="weight"><br>
+	<label class = "field">Age:</label> <input type="number" class="age" id="age"><br>
+	<label class = "field">Height in inches:</label> <input type="number" class="height" id="height"><br>
+	<label class = "field">Weight in lbs:</label> <input type="number" class="weight" id="weight"><br>
 
 	<!-- Accepts the users activity level using a dropdown selector -->
 	<label class = "field">Activity Level:</label> 
@@ -93,6 +94,7 @@
 	</div>
 	</div>
 	</form>
+	</div>
 	</body>
 
 </html>
