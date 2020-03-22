@@ -35,7 +35,11 @@ var activity = document.getElementById("activity").value;
 var multiplier;
 
 
-if (activity == "Moderate"){
+if (activity == "Sedentary"){
+	multiplier = 1.2;
+}
+
+else if (activity == "Moderate"){
 	multiplier = 1.4;
 }
 
@@ -43,12 +47,8 @@ else if (activity == "Intense"){
 	multiplier = 1.7;
 }
 
-else if (activity == "Athlete"){
-	multiplier = 1.95;
-}
-
 else {
-	multiplier = 1.2;
+	multiplier = 1.95;
 }
 
 /** Calculates the BMR calories using the Mifflin-St Jeor equation depending on the gender of the user **/
