@@ -145,8 +145,6 @@ input[type="number"], textarea{
 
 }
 
-
-
 .table {
    width: 200px;
    height:450px;
@@ -158,11 +156,13 @@ input[type="number"], textarea{
    color: white;
    font-weight: bold;
    text-decoration: underline;
+   text-align: center;
 }
 
 .field {
    color: white;
    font-weight: bold;
+   text-align: center;
 }
 .test{
   color: white;
