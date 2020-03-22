@@ -68,7 +68,7 @@ table tbody td{
    line-height: 1.5em;
    vertical-align: top;
    padding: 0.5em 0.75em;
-}
+  }
 
 legend {
    background-color: #303635 ;
@@ -124,6 +124,7 @@ input[type="number"], textarea{
    height: auto;
 }
 
+
 /** Calculator Background **/
 
 .calc{
@@ -164,6 +165,11 @@ input[type="number"], textarea{
    font-weight: bold;
    text-align: center;
 }
+.cut{
+   border-left:2px solid #c5ecfd;
+   border-right:2px solid #c5ecfd;
+}
+
 .test{
   color: white;
    font-weight: bold;
