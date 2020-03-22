@@ -172,6 +172,12 @@ input[type="number"], textarea{
    padding-top: 30px;
 }
 
+.label {
+   color: white;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
 .field {
    color: white;
    font-weight: bold;

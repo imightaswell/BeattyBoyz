@@ -24,7 +24,7 @@
 	<!-- A paragrap that explains weight loss -->
 	<div>
 		<p class="paragraph">
-			Weight change in the human body depends on caloric intake. A calorie is a unit of energy used in nutrition<br/> when determining how much energy and nutritional value is in food. The human body uses calories to function<br/> using them for things like providing the engery for our vital organs to operate and providing energy to our muscles<br/> when we walk. Since the human body is constantly working and using calories there’s a base amount of calories<br/> the human body uses (or burns) to ensure our vital organs are functioning properly.<br/><br/>
+			Weight change in the human body depends on caloric intake. A calorie is a unit of energy used in nutrition<br/> when determining how much energy and nutritional value is in food. The human body uses calories to function<br/> using them for things like providing the engery for our vital organs and providing energy to our muscles<br/> when we walk. Since the human body is constantly working and using calories there’s a base amount of calories<br/> the human body uses (or burns) to ensure our bodies are functioning properly.<br/><br/>
 
 			An analogy one can use when discussing caloric intake and the human body is gasoline and a car. The major<br/> difference is when humans fill up their metaphorical “gas tank” the energy consumed after is stored within the body.<br/> These stored calories can then be used as a source of energy for the body in the future.<br/><br/>
 
@@ -34,7 +34,7 @@
 		
 			Depending on a person’s goals when it comes to fitness they might want to increase their body weight. An increase in<br/> body weight is generally only possible if the person ensures they are eating above their maintenance caloric intake level.<br/> This increase in caloric intake is referred to as caloric surplus. In a caloric surplus the human body first prioritizes vital body<br/> functions, then stores the calories that are supplemental to the maintenance calories in the body.<br/> This storage could either be body fat or muscle.<br/><br/>
 
-			Here is a calculator to determine your caloric maintenance level:
+			Here is a calculator to determine your caloric and macronutrient intake depending on your goal:
 		</p>
 	</div>
 	</div>
@@ -67,30 +67,58 @@
 		<option>Intense</option>
 		<option>Athlete</option>
 	</select>
-		</div>
+</div>
 
 <!-- Creates the button that allows to submit their information -->	
 <button type="button" onclick="" class="rounded">Calculate</button>
 
-<!-- Creates the fields that the calorie and macro calculations will go into -->
-<p class="field">Maintenance Calories: </p> <p class="field" id="baseCals"></p>
-<p class="field">Protein: </p> <p class="field" id="baseProtein"></p><br>
-<p class="field">Fats: </p> <p class="field" id="baseFats"></p><br>
-<p class="field">Carbs: </p> <p class="field" id="baseCarbs"></p><br>
-
-
-<p class="field">Cutting Calories: </p> <p class="field" id="cuttingCals"></p><br>
-<p class="field">Protein: </p> <p class="field" id="cuttingProtein"></p><br>
-<p class="field">Fats: </p> <p class="field" id="cuttingFats"></p><br>
-<p class="field">Carbs: </p> <p class="field" id="cuttingCarbs"></p><br>
-
-<p class="field">Bulking Calories: </p> <p class="field" id="bulkingCals"></p><br>
-<p class="field">Protein: </p> <p class="field" id="bulkingProtein"></p><br>
-<p class="field">Fats: </p> <p class="field" id="bulkingFats"></p><br>
-<p class="field">Carbs: </p> <p class="field" id="bulkingCarbs"></p><br>
-
+<table>
+	<thead>
+		<tr>
+			<th><p class="label">Maintenance Calories:</p></th>
+			<th><p class="label">Cutting Calories:</p></th>
+			<th><p class="label">Bulking Calories: </p></th>
+		</tr>
+	</thead>
+	<tr>
+		<td><p class="field" id="baseCals"></p></td>
+		<td><p class="field" id="cuttingCals"></p></td>
+		<td><p class="field" id="bulkingCals"></p></td>
+	</tr>
+	<tr>
+		<td><p class="label">Protein:</p></td>
+		<td><p class="label">Protein:</p></td>
+		<td><p class="label">Protein:</p></td>
+	</tr>
+	<tr>
+		<td><p class="field" id="baseProtein"></p></td>
+		<td><p class="field" id="cuttingProtein"></td>
+		<td><p class="field" id="bulkingProtein"></td>
+	</tr>
+	<tr>
+		<td><p class="label">Fats:</p></td>
+		<td><p class="label">Fats:</p></td>
+		<td><p class="label">Fats:</p></td>
+	</tr>
+	<tr>
+		<td><p class="field" id="baseFats"></p></td>
+		<td><p class="field" id="cuttingFats"></p></td>
+		<td><p class="field" id="bulkingFats"></p></td>
+	</tr>
+	<tr>
+		<td><p class="label">Carbs:</p></td>
+		<td><p class="label">Carbs:</p></td>
+		<td><p class="label">Carbs:</p></td>
+	</tr>
+	<tr>
+		<td><p class="field" id="baseCarbs"></p></td>
+		<td><p class="field" id="cuttingCarbs"></p></td>
+		<td><p class="field" id="bulkingCarbs"></p></td>
+	</tr>
+</table>
 <!-- Initiates calculation script -->
 <script type="text/javascript" src="../js/js_file.js"></script>
+
 	</div>
 	</div>
 	</form>

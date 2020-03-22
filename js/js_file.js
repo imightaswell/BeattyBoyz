@@ -18,6 +18,7 @@ var gender = new Boolean(document.getElementById("genderM").checked);
 /** Grabs the raw weight in pounds from the form **/
 var weightInPounds = document.getElementById("weight").value;
 
+
 /** Grabs the height, age, weight, and activity level from the form **/
 var height = document.getElementById("height").value*2.54;
 var age = document.getElementById("age").value;
@@ -77,12 +78,12 @@ array.push(protein);
 var leftOver = c - (protein*4);
 
 /** Calculates the fats (25% of caloric intake) then takes away the calories from the fats from the remaining calories **/
-var fats = (c*.25)/9;
+var fats = ((c*.25)/9).toFixed(0);
 array.push(fats);
 leftOver = leftOver - (fats*9);
 
 /** Calculates the carbs (remaining calories) then takes away the calories from the fats from the remaining calories **/
-var carbs = leftOver/4;
+var carbs = (leftOver/4).toFixed(0);
 array.push(carbs);
 
 return array;
@@ -98,9 +99,9 @@ bulkingArray = macros(bulking, weightInPounds);
 /** Creates an event lister that listens for the calculate button to be clicked then prints the results after the click  **/
 document.getElementsByTagName("button")[0].addEventListener("click", function() {
 	calculator();
-	document.getElementById('baseCals').innerHTML = base;
-	document.getElementById('cuttingCals').innerHTML = cutting;
-	document.getElementById('bulkingCals').innerHTML = bulking;
+	document.getElementById('baseCals').innerHTML = base.toFixed(0);
+	document.getElementById('cuttingCals').innerHTML = cutting.toFixed(0);
+	document.getElementById('bulkingCals').innerHTML = bulking.toFixed(0);
 
 	document.getElementById('baseProtein').innerHTML = baseArray[0];
 	document.getElementById('baseFats').innerHTML = baseArray[1];
