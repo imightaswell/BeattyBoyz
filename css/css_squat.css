@@ -8,27 +8,16 @@
 h1{
  font-family: sans-serif;
  color: white;
+ font-size: 40px;
  width: 900px;
   position: fixed;
-  top: 40%;
-  left: 50%;
+  top: 20%;
+  left: 57%;
   margin-top: -50px;
   margin-left: -250px;
  
 }
 
-h2{
-   font-family: sans-serif;
-   color: white;
-   text-align: center;
-   width: 300px;
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  margin-top: 0px;
-  margin-left: 0px;
- 
-}
 body {
    font-family: "Lucida Sans", Verdana, Arial, white;
    font-size: 85%;
@@ -78,17 +67,6 @@ ul li.active a{
    margin: auto;
 }
 
-.title{
-   position: absolute;
-   top: 5%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-}
-
-.title h1{
-   color: #fff;
-   font-size:45px;
-}
 .div-container {
   position: fixed;
   top: 50%;
@@ -99,34 +77,20 @@ ul li.active a{
   width: 0px
 }
 
-.button{
-   position: absolute;
-   top:40%;
-   width: 400px;
-   display: inline-block;
-   position: fixed;
-   top: 40%;
-   left: 50%;
-   margin-top: 150px;
-   margin-left: -180px;
-
-}
-
-.btn{
-   border: 1px solid #fff;
-   padding: 10px 30px;
-   color: #fff;
-   text-decoration: none;
-}
-
-.btn:hover{
-   background-color: #fff;
-   color: #000;
-   transition: 0.6s ease;
-}
-
 .gif{
   position: fixed;
+  bottom: 10%;
+  left: 70%;
+}
+
+.desc{
+  position: fixed;
+  color: white;
+  bottom: 70%;
+}
+
+.pic{
+  position: fixed;
   bottom: 30%;
-  left: 50%;
+  left: 5%;
 }
