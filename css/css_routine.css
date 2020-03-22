@@ -85,7 +85,7 @@ ul li a:hover{
 }
 
 .content-table thead tr {
-  background-color: #009879;
+  background-color: #C70039;
   color: #ffffff;
   text-align: left;
   font-weight: bold;
@@ -109,7 +109,7 @@ ul li a:hover{
 }
 
 .content-table tbody tr:last-of-type {
-  border-bottom: 37px solid #009879;
+  border-bottom: 37px solid #C70039;
 }
 
 /* text */
@@ -178,4 +178,33 @@ ul li a:hover{
    background-color: #fff;
    color: #000;
    transition: 0.6s ease;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+.icon-action {
+    margin-top: 5px;
+    float: right;
+    font-size: 80%;
+}
+
+.list-group-item .title {
+    margin-top: 5px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.daysplits{
+   position: absolute;
+   top:45%;
+   width: 400px;
+   display: inline-block;
+   position: fixed;
+   top: 65%;
+   left: 48%;
+   margin-top: 150px;
+   margin-left: -180px;
+
 }

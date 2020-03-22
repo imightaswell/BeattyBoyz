@@ -79,12 +79,12 @@ ul li.active a{
   overflow: hidden;
   position: fixed;
   top: 20%;
-  left: 20%;
+  left: 17%;
 }
 
 .meet-team h1{
   text-transform: uppercase;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
   color: white;
   font-size: 40px;
 }
@@ -141,4 +141,9 @@ ul li.active a{
   text-align: center;
   text-transform: uppercase;
   font-size: 22px;
+}
+
+.title{
+  position: fixed;
+  top: 16%;
 }

@@ -85,7 +85,7 @@ ul li a:hover{
 }
 
 .content-table thead tr {
-  background-color: #009879;
+  background-color: #C70039;
   color: #ffffff;
   text-align: left;
   font-weight: bold;
@@ -109,7 +109,7 @@ ul li a:hover{
 }
 
 .content-table tbody tr:last-of-type {
-  border-bottom: 37px solid #009879;
+  border-bottom: 37px solid #C70039;
 }
 
 /* text */

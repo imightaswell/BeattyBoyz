@@ -118,36 +118,17 @@ input[type="number"], textarea{
    display: inline-block;
 }
 
-
-.rounded, .rounded:hover {
-   border: 1px solid #172d6e;
-   border-bottom: 1.1px solid #0e1d45;
-   border-radius: 5px;
-   text-align: center;
-   color: white;
-   background-color: #8c9cbf;
-   padding: 0.5em 0 0.5em 0;
-   margin: 0.3em;
-   width: 7em;
-   -webkit-box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 4px 0 #b3b3b3;
-   box-shadow: inset 0 1px 0 0 #72b9eb, 0 1px 4px 0 #b3b3b3; 
-   position: relative;
-   margin-left: 150px;
-   margin-top: 110px;
-}
-.rounded:hover {
-   background-color: #7f8dad;
-}
-
 .logo img{
    float: left;
    width: 10em;
    height: auto;
 }
 
+/** Calculator Background **/
+
 .calc{
   width: 500px;
-  height: 1000px;
+  height: 750px;
   color: #000;
   top: 45%;
   left: 85%;
@@ -155,6 +136,7 @@ input[type="number"], textarea{
   transform: translate(40%, 15%);
   box-sizing: border-box;
   box-shadow: 8px 8px 50px #000;
+
 
 }
 .front {
@@ -167,7 +149,7 @@ input[type="number"], textarea{
 
 .table {
    width: 200px;
-   height: 180px;
+   height:450px;
    padding-left: 100px;
    padding-top: 30px;
 }
@@ -194,7 +176,9 @@ input[type="number"], textarea{
 }
 
 .butcon {
-   position: top;
+   position: fixed;
+   top: 5%;
+   left: 33%;
 } 
 .butcon input[type="radio"] {
   opacity: 0;
@@ -208,19 +192,49 @@ input[type="number"], textarea{
     padding: 10px 20px;
     font-family: sans-serif, Arial;
     font-size: 16px;
-    border: 2px solid #444;
+    border: 2px solid #ddd;
     border-radius: 4px;
 }
 
 .butcon label:hover {
-  background-color: #dfd;
+  background-color: #C70039;
+  transition-duration: 0.4s;
 }
 
-.butcon input[type="radio"]:focus + label {
-    border: 2px dashed #444;
+.butcon input[type="radio"].lab1:checked + label {
+    background-color: #66ccff;
+    border-color: #66ccff;
 }
 
-.butcon input[type="radio"]:checked + label {
-    background-color: #bfb;
-    border-color: #4c4;
+.butcon input[type="radio"].lab2:checked + label {
+    background-color: #ff33cc; 
+    border-color: #ff33cc;
 }
+
+.fillins{
+   position: fixed;
+   top: 13%;
+}
+
+.rounded{
+   border-radius: 3px;
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #555555;
+    border: none;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    position: fixed;
+    top: 50%;
+    left: 22%;
+}
+
+.rounded:hover {
+  background-color: #C70039; 
+  color: white;
+}
+
