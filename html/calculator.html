@@ -54,8 +54,8 @@
   	
   	<!-- Accepts the users age, height, and weight -->
 	<label class = "field">Age:</label> <input type="number" id="age"><br>
-	<label class = "field">Height in cm:</label> <input type="number" id="height"><br>
-	<label class = "field">Weight in kg:</label> <input type="number" id="weight"><br>
+	<label class = "field">Height in inches:</label> <input type="number" id="height"><br>
+	<label class = "field">Weight in lbs:</label> <input type="number" id="weight"><br>
 
 	<!-- Accepts the users activity level using a dropdown selector -->
 	<label class = "field">Activity Level:</label> 
@@ -71,17 +71,28 @@
 <!-- Creates the button that allows to submit their information -->	
 <button type="button" onclick="" class="rounded">Calculate</button>
 
-<!-- Creates the fields that the calorie calculations will go into -->
-<p class="field">Maintenance Calories: </p> <p class="field" id="baseCals"></p><br>
+<!-- Creates the fields that the calorie and macro calculations will go into -->
+<p class="field">Maintenance Calories: </p> <p class="field" id="baseCals"></p>
+<p class="field">Protein: </p> <p class="field" id="baseProtein"></p><br>
+<p class="field">Fats: </p> <p class="field" id="baseFats"></p><br>
+<p class="field">Carbs: </p> <p class="field" id="baseCarbs"></p><br>
+
+
 <p class="field">Cutting Calories: </p> <p class="field" id="cuttingCals"></p><br>
+<p class="field">Protein: </p> <p class="field" id="cuttingProtein"></p><br>
+<p class="field">Fats: </p> <p class="field" id="cuttingFats"></p><br>
+<p class="field">Carbs: </p> <p class="field" id="cuttingCarbs"></p><br>
+
 <p class="field">Bulking Calories: </p> <p class="field" id="bulkingCals"></p><br>
+<p class="field">Protein: </p> <p class="field" id="bulkingProtein"></p><br>
+<p class="field">Fats: </p> <p class="field" id="bulkingFats"></p><br>
+<p class="field">Carbs: </p> <p class="field" id="bulkingCarbs"></p><br>
 
 <!-- Initiates calculation script -->
 <script type="text/javascript" src="../js/js_file.js"></script>
 	</div>
 	</div>
 	</form>
-
 	</body>
 
 </html>
