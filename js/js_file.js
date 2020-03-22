@@ -9,6 +9,9 @@ var maintainArray;
 var cuttingArray;
 var bulkingArray;
 
+var height;
+var age;
+var weight;
 
 function calculator(){
 
@@ -20,9 +23,9 @@ var weightInPounds = document.getElementById("weight").value;
 
 
 /** Grabs the height, age, weight, and activity level from the form **/
-var height = document.getElementById("height").value*2.54;
-var age = document.getElementById("age").value;
-var weight = document.getElementById("weight").value/2.205;
+height = document.getElementById("height").value*2.54;
+age = document.getElementById("age").value;
+weight = document.getElementById("weight").value/2.205;
 var activity = document.getElementById("activity").value;
 
 /** Declares the macro variables **/
@@ -31,11 +34,8 @@ var activity = document.getElementById("activity").value;
 /** Declares the multiplier variable that sets to a specific number depending on what activity level was selected **/
 var multiplier;
 
-if (activity == "Sedentary"){
-	multiplier = 1.2;
-}
 
-else if (activity == "Moderate"){
+if (activity == "Moderate"){
 	multiplier = 1.4;
 }
 
@@ -48,9 +48,8 @@ else if (activity == "Athlete"){
 }
 
 else {
-	multiplier = 1;
+	multiplier = 1.2;
 }
-
 
 /** Calculates the BMR calories using the Mifflin-St Jeor equation depending on the gender of the user **/
 if (gender==true){
@@ -96,9 +95,17 @@ bulkingArray = macros(bulking, weightInPounds);
 
 }
 
+
 /** Creates an event lister that listens for the calculate button to be clicked then prints the results after the click  **/
 document.getElementsByTagName("button")[0].addEventListener("click", function() {
 	calculator();
+
+	/** Ensures that all inputs are filled and numerical**/
+	if (weight=="" || age=="" || height==""){
+		alert("Please Fill in All Fields");
+	}
+
+	else {
 	document.getElementById('baseCals').innerHTML = base.toFixed(0);
 	document.getElementById('cuttingCals').innerHTML = cutting.toFixed(0);
 	document.getElementById('bulkingCals').innerHTML = bulking.toFixed(0);
@@ -114,5 +121,6 @@ document.getElementsByTagName("button")[0].addEventListener("click", function() 
 	document.getElementById('bulkingProtein').innerHTML = bulkingArray[0];
 	document.getElementById('bulkingFats').innerHTML = bulkingArray[1];
 	document.getElementById('bulkingCarbs').innerHTML = bulkingArray[2];
+	}
 
 })
