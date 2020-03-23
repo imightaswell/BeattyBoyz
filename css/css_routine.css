@@ -111,7 +111,8 @@ ul li a:hover{
 }
 
 #accordion{
-  padding-top: 10%;
+  padding-top: 8%;
+  transform: translate(5%,10%);
   position: relative;
 }
 
