@@ -79,18 +79,63 @@ ul li.active a{
 
 .gif{
   position: fixed;
-  bottom: 10%;
-  left: 70%;
+  bottom: 21%;
+  left: 72%;
 }
 
 .desc{
   position: fixed;
   color: white;
-  bottom: 70%;
+  bottom: 15%;
+  right: 67%;
 }
 
 .pic{
   position: fixed;
-  bottom: 30%;
+  bottom: 33%;
   left: 5%;
+}
+
+.titl{
+  position: fixed;
+  top: 28%;
+  left: 6%;
+  font-size: 35px;
+  color: white;
+
+}
+
+.de{
+  position: fixed;
+  font-size: 35px;
+  color: white;
+  bottom: 27%;
+  right: 78%;
+  color: white;
+}
+
+.Inst{
+  position: fixed;
+  font-size: 35px;
+  color: white;
+  top: 28%;
+  right: 45%;
+  color: white;
+}
+
+.desc1{
+  position: fixed;
+  color: white;
+  top: 37%;
+  left: 35%;
+  color: white;
+}
+
+.demo{
+  position: fixed;
+  font-size: 35px;
+  color: white;
+  top: 28%;
+  right: 11%;
+  color: white;
 }
