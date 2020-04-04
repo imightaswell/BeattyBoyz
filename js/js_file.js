@@ -22,14 +22,11 @@ var gender = new Boolean(document.getElementById("genderM").checked);
 var weightInPounds = document.getElementById("weight").value;
 
 
-/** Grabs the height, age, weight, and activity level from the form **/
+/** Grabs the height (gets converted to cm), age, weight (gets converted to kg), and activity level from the form **/
 height = document.getElementById("height").value*2.54;
 age = document.getElementById("age").value;
 weight = document.getElementById("weight").value/2.205;
 var activity = document.getElementById("activity").value;
-
-/** Declares the macro variables **/
-
 
 /** Declares the multiplier variable that sets to a specific number depending on what activity level was selected **/
 var multiplier;
@@ -60,7 +57,7 @@ else {
 	base=((10*weight+6.25*height-5*age) - 161) * multiplier;
 }
 
-/** Determines the cutting and bulking calories by either taking away 20% from the BMR and adding 15% to the BMR **/
+/** Determines the cutting and bulking calories by either taking away 20% from the BMR or adding 15% to the BMR **/
 cutting = base - (base*.2);
 bulking = base + (base*.15);
 
