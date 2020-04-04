@@ -95,6 +95,7 @@ bulkingArray = macros(bulking, weightInPounds);
 
 /** Creates an event lister that listens for the calculate button to be clicked then prints the results after the click  **/
 document.getElementsByTagName("button")[0].addEventListener("click", function() {
+	
 	calculator();
 
 	/** Ensures that all inputs are filled and numerical**/
