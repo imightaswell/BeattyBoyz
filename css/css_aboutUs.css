@@ -55,31 +55,43 @@ ul li.active a{
 }
 
 .title{
-   position: absolute;
-   top: 5%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+   position: absolute !important;
+   float: left;
+   padding-left: 41%;
+   top: 10%;
+   width: 50%;
+   color: #fff !important;
+   font-size:45px;
 }
-
+}
 .title h1{
-   color: #fff;
+   color: #fff !important;
    font-size:45px;
 }
 .div-container {
   position: fixed;
   top: 50%;
   left: 50%;
-  margin-top: 0px;
-  margin-left: -150px;
   height: 150px;
   width: 0px
 }
+.container{
+  position: relative;
+  margin:0 auto;
+  height: 650px;
+  width: 950px;
+}
 
 .meet-team {
+  margin: 0 auto;
   overflow: hidden;
-  position: fixed;
-  top: 20%;
-  left: 17%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  height: 650px;
+  width: 950px;
+  margin-top: 10%;
+  transform: translate(-50%, -100%)
 }
 
 .meet-team h1{
@@ -99,14 +111,18 @@ ul li.active a{
 }
 
 .pics{
-  margin-bottom: 40px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+
 }
 
 .pics a{
+  position: relative;
   display: inline-block;
-  margin: 0 30px;
-  width: 260px;
-  height: 260px;
+  margin-left: 5%;
+  width: 180px;
+  height: 180px;
   overflow: hidden;
   border-radius: 20%;
 }
@@ -122,6 +138,7 @@ ul li.active a{
 }
 
 .bio{
+  padding-top: 20px;
   width: 600px;
   margin: auto;
   font-size: 20px;
@@ -143,7 +160,4 @@ ul li.active a{
   font-size: 22px;
 }
 
-.title{
-  position: fixed;
-  top: 16%;
-}
+
