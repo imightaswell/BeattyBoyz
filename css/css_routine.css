@@ -54,8 +54,11 @@ ul li a:hover{
 
 .logo img{
    float: left;
-   width: 10em;
+   width: 8.5em;
    height: auto;
+   position: fixed;
+   left: 18.8%;
+   top: 0%;
 }
 
 .main{
